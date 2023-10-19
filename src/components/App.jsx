@@ -21,7 +21,7 @@ export const App = () => {
       <ContactForm />
       <SubTitle>Contacts</SubTitle>
       <Filter />
-      <ContactList contacts={filterContact()} />
+      <ContactList />
     </Section>
   );
 };
